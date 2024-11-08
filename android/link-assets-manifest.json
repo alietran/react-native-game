@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/DancingScript-Regular.ttf",
+      "sha1": "77b7bf804974618d28d7b73c79ea5d34c82cb704"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Bold.ttf",
+      "sha1": "0ad533c702f9ac1de717063040426858662cfbcc"
+    },
+    {
+      "path": "src/assets/fonts/OpenSans-Regular.ttf",
+      "sha1": "dc9c07303a2392f9ee02fdb636814970753ac94a"
+    },
+    {
+      "path": "src/assets/fonts/PlaywriteGBS-Regular.ttf",
+      "sha1": "b657820f7717f1ca15cc99438a3db8064ca67c22"
+    }
+  ]
+}

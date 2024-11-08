@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-react_native_game-react_native_gameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-react_native_game-react_native_gameTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		00B1F0CADA4B4D439D89BE62 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA21813C24945B2A070BD20 /* DancingScript-Regular.ttf */; };
+		88BEA1FE81CC4EEAB9067CA8 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A6E6F137B304824BD26E812 /* OpenSans-Bold.ttf */; };
+		BA7A8B7996BF4D9BBACB04FE /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72BD66E327DC4984AC5F0549 /* OpenSans-Regular.ttf */; };
+		2C08E92E9BC746BA802CBC64 /* PlaywriteGBS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9532E272228E43699CBE6BC0 /* PlaywriteGBS-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = react_native_game/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-react_native_game-react_native_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_game-react_native_gameTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_game-react_native_gameTests/Pods-react_native_game-react_native_gameTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CDA21813C24945B2A070BD20 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../src/assets/fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A6E6F137B304824BD26E812 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72BD66E327DC4984AC5F0549 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9532E272228E43699CBE6BC0 /* PlaywriteGBS-Regular.ttf */ = {isa = PBXFileReference; name = "PlaywriteGBS-Regular.ttf"; path = "../src/assets/fonts/PlaywriteGBS-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				193F28DCC9314FE681DD01C9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +158,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		193F28DCC9314FE681DD01C9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CDA21813C24945B2A070BD20 /* DancingScript-Regular.ttf */,
+				3A6E6F137B304824BD26E812 /* OpenSans-Bold.ttf */,
+				72BD66E327DC4984AC5F0549 /* OpenSans-Regular.ttf */,
+				9532E272228E43699CBE6BC0 /* PlaywriteGBS-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +266,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				00B1F0CADA4B4D439D89BE62 /* DancingScript-Regular.ttf in Resources */,
+				88BEA1FE81CC4EEAB9067CA8 /* OpenSans-Bold.ttf in Resources */,
+				BA7A8B7996BF4D9BBACB04FE /* OpenSans-Regular.ttf in Resources */,
+				2C08E92E9BC746BA802CBC64 /* PlaywriteGBS-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
